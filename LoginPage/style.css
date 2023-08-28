@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -40,7 +40,7 @@ header {
   position: relative;
   font-size: 1.1em;
   color: #fff;
-  font-weight: 1000;
+  
   text-decoration: none;
   margin-left: 40px;
 }
@@ -74,7 +74,6 @@ header {
   cursor: pointer;
   font-size: 1.1em;
   color: #fff;
-  font-weight: 1000;
   transition: 0.5s;
 }
 
@@ -178,7 +177,6 @@ header {
   color: #ff9b10;
   bottom: 50px;
   text-align: center;
-  font-weight: 900;
   text-shadow: 0 0 60px rgba(0, 0, 0, 0.7);
 }
 
@@ -196,7 +194,6 @@ header {
   left: 5px;
   transform: translateY(50%);
   font-size: 1.1em;
-  font-weight: 800;
   color: #ff9b10;
   pointer-events: none;
   transition: 0.3s;
@@ -217,7 +214,6 @@ header {
   font-size: 0.9em;
   font-stretch: expanded;
   color: #ff9b10;
-  font-weight: 700;
   padding: 0 35px 0 5px;
 }
 
@@ -232,7 +228,6 @@ header {
 .remember-forgot {
   font-size: 0.9em;
   color: #ff9b10;
-  font-weight: 900;
   margin: -15px 0 15px;
   display: flex;
   justify-content: space-between;
@@ -258,7 +253,6 @@ header {
   border-radius: 10px;
   color: #fff;
   opacity: 70%;
-  font-weight: 900;
   font-size: 1.1em;
   background-image: url("LoginButton.jpg");
   background-size: cover;
@@ -269,7 +263,6 @@ header {
 .login-register {
   font-size: 0.9em;
   color: #ff9b10;
-  font-weight: 900;
   margin: -15px 0 15px;
   display: flex;
   justify-content: center;
@@ -277,7 +270,6 @@ header {
 }
 .login-register a {
   font-size: 0.9em;
-  text-decoration: solid;
   color: #ff9b10;
 }
 .login-register a:hover {
